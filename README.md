@@ -1,8 +1,30 @@
-# React + Vite
+### **TruckersMP Community Tracker App**
+<hr />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **This project is a tracking app using data from the "Trucky Companion REST API".** 
 
-Currently, two official plugins are available:
+### ❓ What's used in this project: ❓
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React (using Router)**
+- **JavaScript (utilities, React)**
+- **TailwindCSS / Vanilla CSS**
+- **Vite bundler**
+
+### ❗ Page content: ❗
+
+- **Home page with news and random Images from the game**
+- **Streams page with live Twitch streams and infos about:** 
+    + current stream count
+    + number of used languages 
+    + total viewer count
+    + streams can be sorted by language
+- **Players page where the user can search for a specific player via Steam name**
+- **Servers page which shows current live data for available servers and their stats.**
+    + stats updating every 20 seconds
+
+<hr />
+
+### 🚧 TODO: 🚧
+
+- [ ] Finalize responsive design for mobile
+- [ ] Redesign players page
